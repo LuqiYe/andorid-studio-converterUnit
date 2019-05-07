@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="382dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="79dp">
+
+        <TextView
+            android:id="@+id/CtoF"
+            android:layout_width="213dp"
+            android:layout_height="wrap_content"
+            android:text="C"
+            tools:layout_editor_absoluteX="247dp"
+            tools:layout_editor_absoluteY="41dp" />
+
+        <EditText
+            android:id="@+id/testCtoF"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="numberDecimal"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="29dp" />
+
+        <TextView
+            android:id="@+id/FtoC"
+            android:layout_width="215dp"
+            android:layout_height="wrap_content"
+            android:text="F"
+            tools:layout_editor_absoluteX="247dp"
+            tools:layout_editor_absoluteY="99dp" />
+
+        <EditText
+            android:id="@+id/testFtoC"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="numberDecimal"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="91dp" />
+
+        <TextView
+            android:id="@+id/kmValue"
+            android:layout_width="215dp"
+            android:layout_height="wrap_content"
+            android:text="km" />
+
+        <EditText
+            android:id="@+id/KmtoMile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="numberDecimal" />
+
+        <TextView
+            android:id="@+id/mileValue"
+            android:layout_width="217dp"
+            android:layout_height="wrap_content"
+            android:text="mile" />
+
+        <EditText
+            android:id="@+id/MiletoKm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="numberDecimal" />
+
+        <TextView
+            android:id="@+id/KgValue"
+            android:layout_width="217dp"
+            android:layout_height="wrap_content"
+            android:text="kg" />
+
+        <EditText
+            android:id="@+id/KgtoLb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="numberDecimal" />
+
+        <TextView
+            android:id="@+id/LbValue"
+            android:layout_width="215dp"
+            android:layout_height="wrap_content"
+            android:text="lb" />
+
+        <EditText
+            android:id="@+id/LbtoKg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="numberDecimal" />
+
+        <TextView
+            android:id="@+id/litreValue"
+            android:layout_width="214dp"
+            android:layout_height="wrap_content"
+            android:text="litre" />
+
+        <EditText
+            android:id="@+id/LtoGal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="numberDecimal" />
+
+        <TextView
+            android:id="@+id/gallonValue"
+            android:layout_width="213dp"
+            android:layout_height="wrap_content"
+            android:text="gallon" />
+
+        <EditText
+            android:id="@+id/GaltoL"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="numberDecimal" />
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Calculate" />
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
